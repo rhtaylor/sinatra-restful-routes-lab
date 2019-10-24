@@ -12,9 +12,7 @@ class ApplicationController < Sinatra::Base
     
     erb :index 
   end 
-  post '/recipes/:id' do
-   binding.pry
- end
+  
   get '/recipes/new' do 
     erb :new
   end   
